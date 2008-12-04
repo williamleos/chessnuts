@@ -1,0 +1,204 @@
+object frmNewForm_1: TfrmNewForm
+  Left = 65
+  Top = 26
+  AutoScroll = False
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Network Setup'
+  ClientHeight = 100
+  ClientWidth = 227
+  Color = clBtnFace
+  OldCreateOrder = True
+  PopupMenu = MainForm.DesignerPopup
+  Visible = True
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  OnResize = FormResize
+  EVT_CLOSE = 'OnClose'
+  Wx_ICON.Data = {07544269746D617000000000}
+  Wx_Name = 'HostJoinDialog'
+  Wx_IDName = 'ID_DIALOG1'
+  Wx_IDValue = 1000
+  Wx_Class = 'wxDialog'
+  Wx_Center = True
+  Wx_Hidden = False
+  Wx_SizeToContents = True
+  Wx_GeneralStyle = []
+  Wx_DialogStyle = [wxCAPTION, wxSYSTEM_MENU, wxDIALOG_NO_PARENT]
+  Wx_Border = 0
+  Wx_BorderAlignment = []
+  PixelsPerInch = 96
+  TextHeight = 13
+  object WxPanel1: TWxPanel
+    Left = 0
+    Top = 0
+    Width = 227
+    Height = 100
+    Align = alClient
+    Color = 16053492
+    TabOrder = 0
+    Wx_BKColor = clBlack
+    Wx_Class = 'wxPanel'
+    Wx_Default = False
+    Wx_EventList.Strings = (
+      'EVT_UPDATE_UI:OnUpdateUI')
+    Wx_FGColor = clBlack
+    Wx_GeneralStyle = []
+    Wx_Hidden = False
+    Wx_IDName = 'ID_WXPANEL1'
+    Wx_IDValue = 1001
+    InvisibleBGColorString = 'CUS:244,244,244'
+    object editName: TWxEdit
+      Left = 87
+      Top = 4
+      Width = 138
+      Height = 19
+      BevelInner = bvNone
+      BevelOuter = bvNone
+      Modified = False
+      AutoSize = False
+      TabOrder = 0
+      Text = 'Donny Dumbname'
+      Wx_BGColor = clBlack
+      Wx_Class = 'wxTextCtrl'
+      Wx_EditStyle = []
+      Wx_FGColor = clBlack
+      Wx_GeneralStyle = []
+      Wx_Hidden = False
+      Wx_IDName = 'ID_EDITNAME'
+      Wx_IDValue = 1038
+      Wx_MaxLength = 20
+    end
+    object WxStaticText3: TWxStaticText
+      Left = 56
+      Top = 7
+      Width = 31
+      Height = 17
+      Caption = 'Name'
+      TabOrder = 1
+      Wx_BGColor = clBlack
+      Wx_Class = 'wxStaticText'
+      Wx_FGColor = clBlack
+      Wx_GeneralStyle = []
+      Wx_Hidden = False
+      Wx_IDName = 'ID_WXSTATICTEXT3'
+      Wx_IDValue = 1039
+      Wx_LabelStyle = []
+    end
+    object editAddress: TWxEdit
+      Left = 87
+      Top = 27
+      Width = 138
+      Height = 19
+      BevelInner = bvNone
+      BevelOuter = bvNone
+      Modified = False
+      AutoSize = False
+      TabOrder = 2
+      Text = 'localhost'
+      Wx_BGColor = clBlack
+      Wx_Class = 'wxTextCtrl'
+      Wx_EditStyle = []
+      Wx_FGColor = clBlack
+      Wx_GeneralStyle = []
+      Wx_Hidden = False
+      Wx_IDName = 'ID_EDITADDRESS'
+      Wx_IDValue = 1040
+      Wx_MaxLength = 0
+    end
+    object WxStaticText5: TWxStaticText
+      Left = 4
+      Top = 30
+      Width = 83
+      Height = 17
+      Caption = 'Remote Address'
+      TabOrder = 3
+      Wx_BGColor = clBlack
+      Wx_Class = 'wxStaticText'
+      Wx_FGColor = clBlack
+      Wx_GeneralStyle = []
+      Wx_Hidden = False
+      Wx_IDName = 'ID_WXSTATICTEXT5'
+      Wx_IDValue = 1041
+      Wx_LabelStyle = []
+    end
+    object editPort: TWxEdit
+      Left = 87
+      Top = 50
+      Width = 43
+      Height = 19
+      BevelInner = bvNone
+      BevelOuter = bvNone
+      Modified = False
+      AutoSize = False
+      TabOrder = 4
+      Text = '17777'
+      Wx_BGColor = clBlack
+      Wx_Class = 'wxTextCtrl'
+      Wx_EditStyle = []
+      Wx_FGColor = clBlack
+      Wx_GeneralStyle = []
+      Wx_Hidden = False
+      Wx_IDName = 'ID_EDITPORT'
+      Wx_IDValue = 1042
+      Wx_MaxLength = 5
+    end
+    object WxStaticText6: TWxStaticText
+      Left = 27
+      Top = 53
+      Width = 60
+      Height = 17
+      Caption = 'TCP/IP Port'
+      TabOrder = 5
+      Wx_BGColor = clBlack
+      Wx_Class = 'wxStaticText'
+      Wx_FGColor = clBlack
+      Wx_GeneralStyle = []
+      Wx_Hidden = False
+      Wx_IDName = 'ID_WXSTATICTEXT6'
+      Wx_IDValue = 1043
+      Wx_LabelStyle = []
+    end
+    object buttonGoForIt: TWxButton
+      Left = 166
+      Top = 78
+      Width = 60
+      Height = 21
+      Caption = 'Go for it!'
+      TabOrder = 6
+      EVT_BUTTON = 'buttonGoForItClick'
+      Wx_BKColor = clBlack
+      Wx_ButtonStyle = []
+      Wx_Class = 'wxButton'
+      Wx_Default = False
+      Wx_EventList.Strings = (
+        'EVT_BUTTON:OnClick'
+        'EVT_UPDATE_UI:OnUpdateUI')
+      Wx_FGColor = clBlack
+      Wx_GeneralStyle = []
+      Wx_Hidden = False
+      Wx_IDName = 'ID_BUTTONGOFORIT'
+      Wx_IDValue = 1045
+    end
+    object buttonCancel: TWxButton
+      Left = 104
+      Top = 78
+      Width = 60
+      Height = 21
+      Caption = 'Cancel'
+      TabOrder = 7
+      EVT_BUTTON = 'buttonCancelClick'
+      Wx_BKColor = clBlack
+      Wx_ButtonStyle = []
+      Wx_Class = 'wxButton'
+      Wx_Default = False
+      Wx_EventList.Strings = (
+        'EVT_BUTTON:OnClick'
+        'EVT_UPDATE_UI:OnUpdateUI')
+      Wx_FGColor = clBlack
+      Wx_GeneralStyle = []
+      Wx_Hidden = False
+      Wx_IDName = 'ID_BUTTONCANCEL'
+      Wx_IDValue = 1046
+    end
+  end
+end
