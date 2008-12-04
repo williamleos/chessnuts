@@ -1,7 +1,7 @@
 # Project: Chess
 # Compiler: Default GCC compiler
 # Compiler Type: MingW 3
-# Makefile created by wxDev-C++ 7.0 on 02/12/08 20:49
+# Makefile created by wxDev-C++ 7.0 on 04/12/08 13:57
 
 CPP       = g++.exe
 CC        = gcc.exe
