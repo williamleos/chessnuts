@@ -1,0 +1,574 @@
+-------
+Trying to connect to localhost...
+-------
+Some dude is trying to connect.
+-------
+MyClientData()
+-------
+Accepting connection...
+-------
+Success!
+-------
+MyConnection::Poke(): Sending a 'name'.
+-------
+MyConnection::OnPoke() Received a 'name', size=11
+-------
+ServeyDude joined the fray.
+-------
+MyConnection::Poke(): Sending a 'chat'.
+-------
+MyConnection::OnPoke() Received a 'chat', size=32
+-------
+SendClientList()
+-------
+MyConnection::Poke(): Sending a 'ClearClientList'.
+-------
+MyConnection::OnPoke() Received a 'ClearClientList', size=1
+-------
+MyConnection::Poke(): Sending a 'AppendClient'.
+-------
+ClearClientList()
+-------
+MyConnection::OnPoke() Received a 'AppendClient', size=11
+-------
+MyConnection::Poke(): Sending a 'AppendClient'.
+-------
+MyClientData()
+-------
+MyConnection::Poke(): Sending a 'Speed'.
+-------
+MyConnection::OnPoke() Received a 'AppendClient', size=11
+-------
+MyClientData()
+-------
+MyConnection::Poke(): Sending a 'Max'.
+-------
+MyConnection::OnPoke() Received a 'Speed', size=4
+-------
+Server is changing the data rate.
+-------
+MyConnection::Poke(): Sending a 'EnableRefresh'.
+-------
+MyConnection::OnPoke() Received a 'Max', size=4
+-------
+Server is changing the maximum number of clients.
+-------
+MyConnection::Poke(): Sending a 'NoHands'.
+-------
+MyConnection::OnPoke() Received a 'EnableRefresh', size=1
+-------
+Server has enabled floaty piece mode.
+-------
+MyConnection::OnPoke() Received a 'NoHands', size=1
+-------
+Sending everything on one connection...
+-------
+Server has disabled floaty hand mode.
+-------
+MyConnection::Poke(): Sending a 'board'.
+-------
+MyConnection::OnPoke() Received a 'board', size=101
+-------
+xxxxxxxxxxxnpxxxxPNxxnpxxxxPNxxrpxxxxPRxxkpxxxxPKxxqpxxxxPQxxbpxxxxPBxxbpxxxxPBxxrpxxxxPRxxxxxxxxxxx
+-------
+MyConnection::Poke(): Sending a 'highlights'.
+-------
+MyConnection::OnPoke() Received a 'highlights', size=7
+-------
+MyConnection::Poke(): Sending a 'EditMode'.
+-------
+received highlights: 010101
+-------
+MyConnection::OnPoke() Received a 'EditMode', size=2
+-------
+chessFrame::Poke()
+-------
+MyConnection::Poke(): Sending a 'ClockStop'.
+-------
+MyConnection::OnPoke() Received a 'ClockStop', size=1
+-------
+chessFrame::Poke()
+-------
+MyConnection::Poke(): Sending a 'Clocks'.
+-------
+MyConnection::OnPoke() Received a 'Clocks', size=8
+-------
+MyConnection::Poke(): Sending a 'Speed'.
+-------
+MyConnection::OnPoke() Received a 'Speed', size=4
+-------
+MyConnection::Poke(): Sending a 'Max'.
+-------
+Server is changing the data rate.
+-------
+MyConnection::OnPoke() Received a 'Max', size=4
+-------
+MyConnection::Poke(): Sending a 'EnableRefresh'.
+-------
+Server is changing the maximum number of clients.
+-------
+MyConnection::OnPoke() Received a 'EnableRefresh', size=1
+-------
+MyConnection::Poke(): Sending a 'NoHands'.
+-------
+Server has enabled floaty piece mode.
+-------
+MyConnection::OnPoke() Received a 'NoHands', size=1
+-------
+MyConnection::Poke(): Sending a 'NewMethod'.
+-------
+Server has disabled floaty hand mode.
+-------
+MyConnection::OnPoke() Received a 'NewMethod', size=1
+-------
+Server has changed piece update to new method.
+-------
+MyConnection::Poke(): Sending a 'chat'.
+-------
+MyConnection::OnPoke() Received a 'chat', size=17
+-------
+MyConnection::Poke(): Sending a 'chat'.
+-------
+MyConnection::OnPoke() Received a 'chat', size=17
+-------
+MyConnection::Poke(): Sending a 'chat'.
+-------
+MyConnection::OnPoke() Received a 'chat', size=19
+-------
+MyConnection::Poke(): Sending a 'chat'.
+-------
+MyConnection::OnPoke() Received a 'chat', size=19
+-------
+MyConnection::Poke(): Sending a 'chat'.
+-------
+MyConnection::OnPoke() Received a 'chat', size=17
+-------
+MyConnection::Poke(): Sending a 'chat'.
+-------
+MyConnection::OnPoke() Received a 'chat', size=17
+-------
+MyConnection::Poke(): Sending a 'chat'.
+-------
+MyConnection::OnPoke() Received a 'chat', size=21
+-------
+MyConnection::Poke(): Sending a 'chat'.
+-------
+MyConnection::OnPoke() Received a 'chat', size=21
+-------
+sending mouse floater as client
+-------
+MyConnection::Poke(): Sending a 'highlights'.
+-------
+MyConnection::Poke(): Sending a '+x'.
+-------
+MyConnection::OnPoke() Received a 'highlights', size=11
+-------
+received highlights: 42-1-1-1-1
+-------
+MyConnection::OnPoke() Received a '+x', size=8
+-------
+sending mouse floater as client
+-------
+MyConnection::Poke(): Sending a 'highlights'.
+-------
+MyConnection::Poke(): Sending a '+p'.
+-------
+MyConnection::OnPoke() Received a 'highlights', size=9
+-------
+received highlights: 4244-1-1
+-------
+MyConnection::OnPoke() Received a '+p', size=8
+-------
+sending mouse floater as client
+-------
+MyConnection::Poke(): Sending a 'highlights'.
+-------
+MyConnection::Poke(): Sending a '+x'.
+-------
+MyConnection::OnPoke() Received a 'highlights', size=11
+-------
+received highlights: 41-1-1-1-1
+-------
+MyConnection::OnPoke() Received a '+x', size=8
+-------
+sending mouse floater as client
+-------
+MyConnection::Poke(): Sending a 'highlights'.
+-------
+MyConnection::Poke(): Sending a '+k'.
+-------
+MyConnection::OnPoke() Received a 'highlights', size=9
+-------
+received highlights: 4141-1-1
+-------
+MyConnection::OnPoke() Received a '+k', size=8
+-------
+sending mouse floater as client
+-------
+MyConnection::Poke(): Sending a 'highlights'.
+-------
+MyConnection::Poke(): Sending a '+x'.
+-------
+MyConnection::OnPoke() Received a 'highlights', size=11
+-------
+received highlights: 12-1-1-1-1
+-------
+MyConnection::OnPoke() Received a '+x', size=8
+-------
+sending mouse floater as client
+-------
+MyConnection::Poke(): Sending a 'highlights'.
+-------
+MyConnection::Poke(): Sending a '+p'.
+-------
+MyConnection::OnPoke() Received a 'highlights', size=9
+-------
+received highlights: 1214-1-1
+-------
+MyConnection::OnPoke() Received a '+p', size=8
+-------
+sending mouse floater as client
+-------
+MyConnection::Poke(): Sending a 'highlights'.
+-------
+MyConnection::Poke(): Sending a '+x'.
+-------
+MyConnection::OnPoke() Received a 'highlights', size=11
+-------
+received highlights: 61-1-1-1-1
+-------
+MyConnection::OnPoke() Received a '+x', size=8
+-------
+sending mouse floater as client
+-------
+MyConnection::Poke(): Sending a 'highlights'.
+-------
+MyConnection::Poke(): Sending a '+b'.
+-------
+MyConnection::OnPoke() Received a 'highlights', size=9
+-------
+received highlights: 6125-1-1
+-------
+MyConnection::OnPoke() Received a '+b', size=8
+-------
+sending mouse floater as client
+-------
+MyConnection::Poke(): Sending a 'highlights'.
+-------
+MyConnection::Poke(): Sending a '+x'.
+-------
+MyConnection::OnPoke() Received a 'highlights', size=11
+-------
+received highlights: 25-1-1-1-1
+-------
+MyConnection::OnPoke() Received a '+x', size=8
+-------
+sending mouse floater as client
+-------
+MyConnection::Poke(): Sending a 'highlights'.
+-------
+MyConnection::Poke(): Sending a '+b'.
+-------
+MyConnection::OnPoke() Received a 'highlights', size=9
+-------
+received highlights: 25-1-147
+-------
+MyConnection::OnPoke() Received a '+b', size=8
+-------
+sending mouse floater as client
+-------
+MyConnection::Poke(): Sending a 'highlights'.
+-------
+MyConnection::OnPoke() Received a 'highlights', size=7
+-------
+MyConnection::Poke(): Sending a '+P'.
+-------
+received highlights: 252547
+-------
+MyConnection::OnPoke() Received a '+P', size=8
+-------
+sending mouse floater as client
+-------
+MyConnection::Poke(): Sending a 'highlights'.
+-------
+MyConnection::Poke(): Sending a '+x'.
+-------
+MyConnection::OnPoke() Received a 'highlights', size=11
+-------
+received highlights: 44-1-1-1-1
+-------
+MyConnection::OnPoke() Received a '+x', size=8
+-------
+sending mouse floater as client
+-------
+MyConnection::Poke(): Sending a 'highlights'.
+-------
+MyConnection::Poke(): Sending a '+p'.
+-------
+MyConnection::OnPoke() Received a 'highlights', size=9
+-------
+received highlights: 44-1-125
+-------
+MyConnection::OnPoke() Received a '+p', size=8
+-------
+sending mouse floater as client
+-------
+MyConnection::Poke(): Sending a 'highlights'.
+-------
+MyConnection::Poke(): Sending a '+P'.
+-------
+MyConnection::OnPoke() Received a 'highlights', size=7
+-------
+received highlights: 444425
+-------
+MyConnection::OnPoke() Received a '+P', size=8
+-------
+sending mouse floater as client
+-------
+MyConnection::Poke(): Sending a 'highlights'.
+-------
+MyConnection::OnPoke() Received a 'highlights', size=11
+-------
+MyConnection::Poke(): Sending a '+x'.
+-------
+received highlights: 22-1-1-1-1
+-------
+MyConnection::OnPoke() Received a '+x', size=8
+-------
+sending mouse floater as client
+-------
+MyConnection::Poke(): Sending a 'highlights'.
+-------
+MyConnection::OnPoke() Received a 'highlights', size=9
+-------
+MyConnection::Poke(): Sending a '+p'.
+-------
+received highlights: 2203-1-1
+-------
+MyConnection::OnPoke() Received a '+p', size=8
+-------
+sending mouse floater as client
+-------
+MyConnection::Poke(): Sending a 'highlights'.
+-------
+MyConnection::Poke(): Sending a '+x'.
+-------
+MyConnection::OnPoke() Received a 'highlights', size=11
+-------
+received highlights: 14-1-1-1-1
+-------
+MyConnection::OnPoke() Received a '+x', size=8
+-------
+sending mouse floater as client
+-------
+MyConnection::Poke(): Sending a 'highlights'.
+-------
+MyConnection::Poke(): Sending a '+p'.
+-------
+MyConnection::OnPoke() Received a 'highlights', size=9
+-------
+received highlights: 1404-1-1
+-------
+MyConnection::OnPoke() Received a '+p', size=8
+-------
+sending mouse floater as client
+-------
+MyConnection::Poke(): Sending a 'highlights'.
+-------
+MyConnection::OnPoke() Received a 'highlights', size=11
+-------
+MyConnection::Poke(): Sending a '+x'.
+-------
+received highlights: 25-1-1-1-1
+-------
+MyConnection::OnPoke() Received a '+x', size=8
+-------
+sending mouse floater as client
+-------
+sending mouse floater as client
+-------
+MyConnection::Poke(): Sending a 'highlights'.
+-------
+MyConnection::OnPoke() Received a 'highlights', size=11
+-------
+MyConnection::Poke(): Sending a '+x'.
+-------
+received highlights: 04-1-1-1-1
+-------
+MyConnection::OnPoke() Received a '+x', size=8
+-------
+sending mouse floater as client
+-------
+sending mouse floater as client
+-------
+MyConnection::Poke(): Sending a 'highlights'.
+-------
+MyConnection::OnPoke() Received a 'highlights', size=11
+-------
+MyConnection::Poke(): Sending a '+x'.
+-------
+received highlights: 03-1-1-1-1
+-------
+MyConnection::OnPoke() Received a '+x', size=8
+-------
+sending mouse floater as client
+-------
+MyConnection::Poke(): Sending a 'highlights'.
+-------
+MyConnection::OnPoke() Received a 'highlights', size=9
+-------
+MyConnection::Poke(): Sending a '+p'.
+-------
+received highlights: 0324-1-1
+-------
+MyConnection::OnPoke() Received a '+p', size=8
+-------
+sending mouse floater as client
+-------
+sending mouse floater as client
+-------
+MyConnection::Poke(): Sending a 'highlights'.
+-------
+MyConnection::Poke(): Sending a '+p'.
+-------
+MyConnection::OnPoke() Received a 'highlights', size=11
+-------
+received highlights: -1-122-1-1
+-------
+MyConnection::OnPoke() Received a '+p', size=8
+-------
+sending mouse floater as client
+-------
+MyConnection::Poke(): Sending a 'highlights'.
+-------
+MyConnection::Poke(): Sending a '+x'.
+-------
+MyConnection::OnPoke() Received a 'highlights', size=11
+-------
+received highlights: 24-1-1-1-1
+-------
+MyConnection::OnPoke() Received a '+x', size=8
+-------
+sending mouse floater as client
+-------
+sending mouse floater as client
+-------
+sending mouse floater as client
+-------
+MyConnection::Poke(): Sending a 'highlights'.
+-------
+MyConnection::Poke(): Sending a '+x'.
+-------
+MyConnection::OnPoke() Received a 'highlights', size=11
+-------
+received highlights: 51-1-1-1-1
+-------
+MyConnection::OnPoke() Received a '+x', size=8
+-------
+sending mouse floater as client
+-------
+MyConnection::Poke(): Sending a 'highlights'.
+-------
+MyConnection::Poke(): Sending a '+q'.
+-------
+MyConnection::OnPoke() Received a 'highlights', size=9
+-------
+received highlights: 5124-1-1
+-------
+MyConnection::OnPoke() Received a '+q', size=8
+-------
+sending mouse floater as client
+-------
+sending mouse floater as client
+-------
+sending mouse floater as client
+-------
+sending mouse floater as client
+-------
+sending mouse floater as client
+-------
+sending mouse floater as client
+-------
+sending mouse floater as client
+-------
+sending mouse floater as client
+-------
+sending mouse floater as client
+-------
+sending mouse floater as client
+-------
+sending mouse floater as client
+-------
+sending mouse floater as client
+-------
+MyConnection::Poke(): Sending a 'highlights'.
+-------
+MyConnection::Poke(): Sending a '+x'.
+-------
+MyConnection::OnPoke() Received a 'highlights', size=11
+-------
+received highlights: 24-1-1-1-1
+-------
+MyConnection::OnPoke() Received a '+x', size=8
+-------
+sending mouse floater as client
+-------
+MyConnection::Poke(): Sending a 'highlights'.
+-------
+MyConnection::Poke(): Sending a '+q'.
+-------
+MyConnection::OnPoke() Received a 'highlights', size=9
+-------
+received highlights: 2424-1-1
+-------
+MyConnection::OnPoke() Received a '+q', size=8
+-------
+Disconnecting client, deleting resources...
+-------
+MyClient::Disconnect()
+-------
+MyConnection::OnDisconnect()
+-------
+deleting connection
+-------
+~MyConnection()
+-------
+(server)
+-------
+You have disconnected from the server.
+-------
+ClearClientList()
+-------
+ServeyDude disconnected.
+-------
+~MyClientData()
+-------
+~MyClientData()
+-------
+server is deleting client from list
+-------
+~MyClientData()
+-------
+Connection still exists. Deleting...
+-------
+~MyConnection()
+-------
+MyServer::SetIndices()
+-------
+ServeyDude = 0
+-------
+chessFrame::OnClose())
+-------
+settings saved
+-------
+~chessFrame()
+-------
+chessFrame::OnClose())
+-------
+settings saved
+-------
+Shutting down server...
+-------
+~MyClientData()
+-------
+~chessFrame()
