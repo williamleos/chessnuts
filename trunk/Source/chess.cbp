@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Chess" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="default">
+				<Option output="chess" prefix_auto="1" extension_auto="1" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="`wx-config --cflags`" />
+		</Compiler>
+		<Linker>
+			<Add option="`wx-config --libs`" />
+		</Linker>
+		<Unit filename="HostJoinDialog.cpp" />
+		<Unit filename="HostJoinDialog.h" />
+		<Unit filename="HostJoinDialog.wxform" />
+		<Unit filename="MyGLCanvas.cpp" />
+		<Unit filename="MyGLCanvas.h" />
+		<Unit filename="MyTCP.cpp" />
+		<Unit filename="MyTCP.h" />
+		<Unit filename="chessApp.cpp" />
+		<Unit filename="chessApp.h" />
+		<Unit filename="chessApp.rc" />
+		<Unit filename="chessFrame.cpp" />
+		<Unit filename="chessFrame.h" />
+		<Unit filename="chessFrame.wxform" />
+		<Unit filename="chessPiece.cpp" />
+		<Unit filename="chessPiece.h" />
+		<Unit filename="optionsFrame.cpp" />
+		<Unit filename="optionsFrame.h" />
+		<Unit filename="optionsFrame.wxform" />
+		<Unit filename="standalones.cpp" />
+		<Unit filename="standalones.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
